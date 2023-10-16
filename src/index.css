@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+    align-items: center;
+}
+
+.appHeader {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.addTodoInput, select, .searchInput, button {
+ outline: none;
+ margin-bottom: 10px;
+ padding: 8px;
+ border-radius: 5px;
+ border: none;
+}
+
+.addTodoBtn {
+  background: limegreen;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  margin-top: 10px;
+  border-bottom: 2px solid greenyellow;
+}
+
+.listItems {
+  padding: 5px 10px;
+}
+
+.listItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(70, 77, 70, 0.47);
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.listItem {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+.deleteBtn {
+  background: red;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.copyBtn {
+  margin-bottom: 0;
+  background: rgb(77, 77, 24);
+}
