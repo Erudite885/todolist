@@ -4,6 +4,7 @@
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
+    
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -15,7 +16,7 @@
     "jsx": "react-jsx",
 
     "types":[
-      "jest","testing-library__jest-dom"
+      "jest"
     ],
 
     /* Linting */
